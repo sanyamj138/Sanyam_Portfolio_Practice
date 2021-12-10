@@ -1,0 +1,91 @@
+body {
+  margin: 20;
+  background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+  /*
+  background-image: radial-gradient( circle 674px at 18.3% 77%,  rgba(139,186,244,1) 3.4%, rgba(15,51,92,1) 56.6% );
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+  background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
+  background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+  */
+}
+
+.NavBarSection {
+  text-align: right;
+  margin-top: 25px;
+}
+
+.Introduction_Section {
+  text-align: center;
+}
+
+.IntroSentence {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  margin-top: 75px;
+  font-weight: bold;
+  color: #F9BE62;
+  text-align: center;
+}
+
+.Skills_Section {
+  text-align: center;
+}
+
+.Skills_Intro {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  margin-top: 200px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #F9BE62;
+}
+
+.Sentence {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  margin-top: 50px;
+  font-weight: bold;
+  color: #F9BE62;
+  text-align: center;
+}
+
+.Profile {
+  margin-top: 150px;
+  border-radius: 75% 75%;
+  height: 250px;
+  width: 200px;
+}
+
+.Profile_Button, .Skills_Button, .Contact_Button {
+  background: #F79D00;
+  background-image: -webkit-linear-gradient(top, #F79D00, #F9BE62);
+  background-image: -moz-linear-gradient(top, #F79D00, #F9BE62);
+  background-image: -ms-linear-gradient(top, #F79D00, #F9BE62);
+  background-image: -o-linear-gradient(top, #F79D00, #F9BE62);
+  background-image: -webkit-gradient(to bottom, #F79D00, #F9BE62);
+
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+  width: 100px;
+  font-style: italic;
+  font-size: 15px;
+  text-align: center;
+  margin: (10px, 10px, 10px, 10px);
+  font-family: 'Montserrat', sans-serif;
+}
+.Profile_Button:hover, .Skills_Button:hover, .Contact_Button:hover {
+   border: solid #F79D00 1px;
+   background: #F9BE62;
+   background-image: -webkit-linear-gradient(top, #F9BE62, #F79D00);
+   background-image: -moz-linear-gradient(top, #F9BE62, #F79D00);
+   background-image: -ms-linear-gradient(top, #F9BE62, #F79D00);
+   background-image: -o-linear-gradient(top, #F9BE62, #F79D00);
+   background-image: -webkit-gradient(to bottom, #F9BE62, #F79D00);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
